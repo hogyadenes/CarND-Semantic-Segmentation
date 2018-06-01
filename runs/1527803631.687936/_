@@ -1,0 +1,77 @@
+Epoch=01
+2018-05-31 23:40:50.316384: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.98GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2018-05-31 23:40:50.328704: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.58GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2018-05-31 23:40:51.174425: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.18GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2018-05-31 23:40:51.777472: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.15GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2018-05-31 23:40:51.878883: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.15GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2018-05-31 23:40:52.592062: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.58GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2018-05-31 23:41:12.710477: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1013.06MiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2018-05-31 23:41:12.714889: W T:\src\github\tensorflow\tensorflow\stream_executor\cuda\cuda_dnn.cc:3797]
+2018-05-31 23:41:16.959475: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.78GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2018-05-31 23:41:16.971476: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.58GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2018-05-31 23:41:17.771755: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.17GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+Loss=0.762
+Epoch=02
+2018-05-31 23:41:43.630343: W T:\src\github\tensorflow\tensorflow\stream_executor\cuda\cuda_dnn.cc:3797]
+Loss=0.265
+Epoch=03
+Loss=0.187
+Epoch=04
+[I 23:42:20.626 NotebookApp] Saving file at /main.ipynb
+Loss=0.155
+Epoch=05
+Loss=0.147
+Epoch=06
+Loss=0.134
+Epoch=07
+2018-05-31 23:43:45.602651: W T:\src\github\tensorflow\tensorflow\stream_executor\cuda\cuda_dnn.cc:3797]
+Loss=0.117
+Epoch=08
+2018-05-31 23:44:15.333129: W T:\src\github\tensorflow\tensorflow\stream_executor\cuda\cuda_dnn.cc:3797]
+Loss=0.103
+Epoch=09
+Loss=0.113
+Epoch=10
+Loss=0.093
+Epoch=11
+Loss=0.083
+Epoch=12
+Loss=0.081
+Epoch=13
+Loss=0.076
+Epoch=14
+Loss=0.076
+Epoch=15
+Loss=0.078
+Epoch=16
+Loss=0.073
+Epoch=17
+Loss=0.064
+Epoch=18
+Loss=0.059
+Epoch=19
+Loss=0.058
+Epoch=20
+Loss=0.060
+Epoch=21
+Loss=0.058
+Epoch=22
+2018-05-31 23:50:01.587944: W T:\src\github\tensorflow\tensorflow\stream_executor\cuda\cuda_dnn.cc:3797]
+Loss=0.054
+Epoch=23
+Loss=0.056
+Epoch=24
+Loss=0.051
+Epoch=25
+Loss=0.045
+Epoch=26
+2018-05-31 23:51:58.720090: W T:\src\github\tensorflow\tensorflow\stream_executor\cuda\cuda_dnn.cc:3797]
+Loss=0.044
+Epoch=27
+Loss=0.042
+Epoch=28
+Loss=0.041
+Epoch=29
+Loss=0.042
+Epoch=30
+Loss=0.050
