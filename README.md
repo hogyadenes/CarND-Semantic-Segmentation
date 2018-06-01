@@ -17,7 +17,7 @@ I had to tune the following hyperparameters:
 4. Keep probability
 5. Regularization
 
-The final parameter set is the following:
+After a long experimenting phase, the final parameter set was ended up being the following:
 
 1. LEARNING_RATE = 5e-4
 2. EPOCHS = 30
