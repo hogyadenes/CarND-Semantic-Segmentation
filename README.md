@@ -17,16 +17,13 @@ I had to tune the following hyperparameters:
 4. Keep probability
 5. Regularization
 
-The final parameter is is the following:
-LEARNING_RATE = 5e-4
-EPOCHS = 30
-BATCH_SIZE = 5
-KEEP_PROB = 0.75
-REGULARIZER = 1e-3
+The final parameter set is the following:
 
-
-
-
+1. LEARNING_RATE = 5e-4
+2. EPOCHS = 30
+3. BATCH_SIZE = 5
+4. KEEP_PROB = 0.75
+5. REGULARIZER = 1e-3
 
 
 
