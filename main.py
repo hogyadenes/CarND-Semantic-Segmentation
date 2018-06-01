@@ -52,8 +52,10 @@ def layers(vgg_layer3_out, vgg_layer4_out, vgg_layer7_out, num_classes):
     :param num_classes: Number of classes to classify
     :return: The Tensor for the last layer of output
     """
+    REG_VALUE = 1e-3
+    
     init = tf.random_normal_initializer(stddev=0.01)
-    reg = tf.contrib.layers.l2_regularizer(1e-3)
+    reg = tf.contrib.layers.l2_regularizer(REG_VALUE)
 
     conv_l3 = tf.layers.conv2d(vgg_layer3_out, num_classes, 1, padding='same',
         kernel_initializer=init, kernel_regularizer=reg)
@@ -121,7 +123,7 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
     :param learning_rate: TF Placeholder for learning rate
     """
     # keep probability and learning rate
-    KEEP_PROB     = 0.5 
+    KEEP_PROB     = 0.75 
     LEARNING_RATE = 5e-4 
   
     sess.run(tf.global_variables_initializer())
@@ -146,7 +148,7 @@ tests.test_train_nn(train_nn)
 def run():
     
     EPOCHS = 30
-    BATCH_SIZE = 10
+    BATCH_SIZE = 5
     
     num_classes = 2
     image_shape = (160, 576)
