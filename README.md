@@ -6,7 +6,7 @@ The project mainly consisted of implementing the FCN-8 and tuning its hyperparam
 
 For training, I decided to use an l2 kernel regularizer and an Adam optimizer (it has fewer hyperparameters).
 
-The training and testing was done on my home computer (i7 processor and Geforce GTX980ti) and one
+The training and testing was done on my home computer (i7 processor and Geforce GTX980ti).
 
 ### Hyperparameters
 
@@ -25,7 +25,20 @@ After a long experimenting phase, the final parameter set was ended up being the
 4. KEEP_PROB = 0.75
 5. REGULARIZER = 1e-3
 
+The final image set is [runs/1527873951.8560643](https://github.com/hogyadenes/CarND-Semantic-Segmentation/tree/master/runs/1527873951.8560643). The final log file (containing the average loss per epoch) is [here](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/_)
 
+Some example images from the final result:
+[1](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/um_000002.png)
+[2](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/um_000004.png)
+[3](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/um_000010.png)
+[4](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/um_000014.png)
+[5](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/um_000023.png)
+[6](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/um_000029.png)
+[7](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/um_000068.png)
+[8](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/um_000074.png)
+[9](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/um_000075.png)
+[10](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/umm_000017.png)
+[11](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/umm_000020.png)
 
 ### Setup
 ##### GPU
