@@ -40,7 +40,9 @@ Some example images from the final result:
 ![10](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/umm_000017.png)
 ![11](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/umm_000020.png)
 ![12](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/umm_000092.png)
-![13](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/uu_000057.png)
+![13](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/uu_000040.png)
+![14](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/uu_000057.png)
+![15](https://github.com/hogyadenes/CarND-Semantic-Segmentation/blob/master/runs/1527873951.8560643/uu_000028.png)
 
 ### Setup
 ##### GPU
