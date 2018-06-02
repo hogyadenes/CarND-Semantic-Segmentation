@@ -1,21 +1,16 @@
 Epoch=01
-2018-06-01 19:08:44.100490: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.15GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
-2018-06-01 19:09:18.899287: W T:\src\github\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.15GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
 Loss=0.481
 Epoch=02
 Loss=0.173
 Epoch=03
-[I 19:10:05.370 NotebookApp] Saving file at /main.ipynb
 Loss=0.150
 Epoch=04
 Loss=0.129
 Epoch=05
 Loss=0.111
 Epoch=06
-[I 19:12:05.371 NotebookApp] Saving file at /main.ipynb
 Loss=0.102
 Epoch=07
-[I 19:12:14.661 NotebookApp] Saving file at /main.ipynb
 Loss=0.095
 Epoch=08
 Loss=0.087
